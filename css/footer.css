@@ -1,0 +1,57 @@
+#footer{
+    background-color: rgba(14, 1, 1, 0.941);
+    width: 100%;
+    overflow: auto;
+    margin-top: 20px;
+
+}
+.part1{
+    color: white;
+    float: left;
+    margin: 0 10px;
+    width: 23%;
+}
+.part1 ul, h3, li{
+    font-style: italic;
+    list-style-type: none;
+    font-size: 14px;
+    width: 95%;
+    list-style-type: none;
+}
+.part1 a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+}
+.part1 p{
+    margin-top: 20;
+}
+.part1 form{
+    margin-top: 10px;
+}
+.part1 li{
+    margin-top: 3px;
+}
+
+/* Responsiveness section */
+@media (max-width:679px){
+#footer{
+        width: auto;
+    }
+
+    #footer>  h3{
+        text-align: center;
+    }
+
+    .part1{
+    width: 100%;
+    text-align: center;
+    }
+    .part1 form{
+        width: auto;
+    }
+    .part1 ul{
+        width:auto;
+    }
+}

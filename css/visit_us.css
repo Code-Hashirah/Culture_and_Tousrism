@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-shadow: 1px 1px 1px rgb(175, 4, 4);
+    text-align: center;
+}
+
+#form{
+    background-image: url("../images/islandHD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid rgb(64, 17, 17);
+    margin: 5px 10px 10px 5px;
+    width: 100%;
+}
+
+#form > div{
+    margin: 5px 5px 25px 5px ;
+}
+#flag{
+    float: right;
+    width: 30%;
+}
+
+#flag img{
+    float: right;
+    width: 60%;
+}
+
+#form label{
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+#form input, select{
+    font-size: 14px;
+    color: rgb(170, 2, 2);
+    border: 1px groove brown;
+    width: auto;
+}
+.btn{
+    width: auto;
+    align-self: center;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(49, 7, 7);
+}
+.btn a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 2px groove rgb(97, 21, 21);
+}
+@media screen {
+    #form{
+        width: auto;
+    }
+}

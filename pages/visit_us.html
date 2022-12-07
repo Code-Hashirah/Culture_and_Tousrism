@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Sites</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/visit_us.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div> <marquee behavior="" direction="right"><p >WELCOME TO THE STATE OF OSUN </p></marquee> </div>
+    <header id ="header">
+        <nav>
+            <div><img src="../images/Osun-logo.jpg" alt=""></div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sites.html">Tourist Sites</a></li>
+                <li><a href="visit_us.html">Schedule a Visit</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+        <h2>Ministry of Culture and Tourism</h2>
+        <h3>State of Osun</h3>
+        </div>
+    </header>
+    <!-- main section  -->
+    <main id="Body">
+        <h2>Schedule a Visit Today...</h2>
+        <form id="form" action="get">
+            <div id="flag"><img src="../images/Osun-flag.png" alt="Osun-flag"></div>
+            <div>
+                <label for="Fname">First Name/ Company Name</label>
+                <input id="Fname" type="text" name="Fname" placeholder="First Name">
+            </div>
+
+            <div>
+                <label for="Lname">Last Name/ Position</label>
+                <input id="Lname" type="text" name="Lname" placeholder="Last Name">
+            </div>
+
+            <div>
+                <label for="PhoneNo">Phone Number: <i class="fa-brands fa telephone"></i></label>
+                <input id="PhoneNo" type="text" name="PhoneNo" placeholder="phone number">
+            </div>
+
+            <div>
+                <label for="place_of_interest">Place You Love to Visit:</label>
+                <select name="place_of_interest" id="place_of_interest">
+                    <option value="Erin">Erin Ijesha Waterfall</option>
+                    <option value="osun" selected>Osun Groove</option>
+                    <option value="ibodi">Ibodi Monkey Reserve</option>
+                    <option value="oranmiyan">Oranmiyan Staff</option>
+                    <option value="oduduwa">Oduduwa House</option>
+                </select>
+            </div>
+                        <!-- Visit package -->
+            <div>
+                <label for="package">Visit Package:</label>
+                <select name="package" id="package">
+                    <option value="solo">Solo</option>
+                    <option value="couple">Couple</option>
+                    <option value="Family" selected>Family</option>
+                    <option value="Group">Group</option>
+                    <option value="organization">Organization</option>
+                </select>
+            </div>
+                <!-- Population of visistors -->
+            <div>
+                <label for="people">Number of Individuals</label>
+                <select name="people" id="people">
+                    <option value="1">1</option>
+                    <option value="2">2 to 5</option>
+                    <option value="15">6 to 15</option>
+                    <option value="50">16 to 50</option>
+                    <option value="60+">Above 50 </option>
+                </select>
+            </div>
+
+            <div>
+                <label for="date">Preferred Date</label>
+                <input type="date">
+            </div>
+
+            <div>
+               <button class="btn" type="submit"><a href="../index.html">Secure a Spot</a></button>
+               <button class="btn" type="reset" value="reset">Clear Form</button>
+            </div>
+
+        </form>
+
+    </main>
+    
+   <!-- this is the footer section -->
+<footer id="footer">
+    <div class="part1"> 
+        <h3>Quick Link</h3>
+        <ul class="list-unstyled link">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Help</a></li>
+         <li><a href="#">Rooms</a></li>
+        </ul>
+    </div>
+
+    <div class="part1">
+        <h3>Meet Us</h3>
+        <ul>
+            <li> Address:OIC Coding Hub 32 Asiwaju Hammed Omidiran Street Orita Sabo, Oshogbo Osun State</li>
+            <li>Phone: (+234) 816 285 0719</li>
+            <li>Email: oic_info@yahoo.com</li>
+        </ul>
+    </div>
+   
+<!-- social media  -->
+ <div class="part1">
+        <h3>Follow us</h3>
+        <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li> <a href="https://twitter.com/code-hashira"><i class="fa-brands fa-twitter"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>    
+</div>
+
+ <!-- subscribe  -->
+ <div class="part1">
+    <h3>Subscribe</h3>
+      <p>Sign up for our newsletter</p>
+          <form action="#">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your email...">
+            <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+            </form>
+ </div>
+
+</footer>
+
+</div>
+
+</body>
+</html>

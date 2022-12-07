@@ -1,0 +1,151 @@
+/* Header css part */
+#header{
+    width: 100%;
+    background-color:white;
+    /* background-image: url("../images/islandHD.jpg"); */
+    /* position: sticky;
+        z-index: 1;
+    top:   0 ; */    
+}
+
+#header >nav {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+}
+
+#header> nav> div{
+    float: left;
+    width: 25%;
+    /* border-radius: 50px; */
+}
+#header>nav>ul{
+    float: right;
+    list-style-type: none;
+    color: white;
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+    
+}
+#header > nav > ul > li{
+    border: 2px solid white;
+    /* border-radius: 5px; */
+    float: left;
+    margin-right: 25px;
+    width: 20%;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+ #header > nav > div img{
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 40%;
+    height: 70px;
+ }
+
+ #header>nav>ul a {
+    color: rgb(73, 7, 7);
+    margin-right: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#header>nav>ul li:hover{
+   border-bottom: 1px solid rgb(54, 5, 5);
+}
+
+#banner{
+    background-image: url("../images/ori_olokun_2.jpg");
+    background-repeat:repeat;
+    background-size:auto; 
+    /* background-position: center; */
+    background-attachment: scroll; 
+    text-align: center;
+    font-style: italic;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#banner h2, h3{
+    font-size: 20px;
+    margin: 30px;
+}
+
+#main{
+    width: 100%;
+}
+#main > div {
+    background-color:rgb(36, 2, 2);
+}
+#main > div > marquee > p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px 1px;
+}
+
+
+@media (max-width:679px){
+    #header > nav > ul > li{
+        float: none;
+        text-align: center;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border: transparent;
+    }
+    #header > nav > ul a{
+        color: white;
+        border: transparent;
+    }
+    #header{
+        background-image: url("../images/ori_olokun_2.jpg");
+        background-repeat:repeat;
+        background-size:auto; 
+        overflow: auto;
+    }
+    #header > nav{
+        background-color:transparent;
+        /* float: left; */
+        width: auto;
+        border: transparent;
+    }
+
+    #banner{
+        background-image: none;
+        float: right;
+        padding-top: auto;
+        padding-bottom: auto;
+        width: 100%;
+        /* overflow: auto; */
+        border: transparent;
+    }
+    #banner h2, h3{
+        margin-top: 40px;
+       margin-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #header > nav > ul{
+        width: 100%;
+       
+    }
+    #header > nav > div img{
+        width: 50%;
+        height: 50px;
+     }
+     #header{
+        height: 300px;
+     }
+}

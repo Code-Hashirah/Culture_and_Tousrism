@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Question{
+    position: fixed;
+    left: 80%;
+    bottom: 3%;
+}
+/* /main body area */
+#Body{
+    /* background-image: url("images/Mandela-Frpak.jpg"); */
+   /* background-color: rgb(78, 3, 3); */
+   background-color: white;
+    /* background-position:center;
+   background-repeat: no-repeat;
+   background-size:auto; 
+   background-position: center;
+   background-attachment: scroll;  */
+    /* height: 400px; */
+    width: 100%;
+}
+.content{
+    border: 2px solid rgb(78, 10, 10);
+    /* float: left; */
+    overflow: auto;
+}
+.content >h3{
+    /* float: left; */
+    width: 31.%;
+    color: white;
+    font-style:normal;
+    font-size: 14px;
+    text-align: center;
+}
+#Body > h2 {
+    text-shadow: 1px 1px 1px ;
+    color: white;
+    font-style:normal;
+    width: 100%;
+    text-align: center;
+}
+.content > img{
+    height: 300px;
+    width: 40%;
+    /* float: left; */
+    padding: 5px 10px;
+}
+.content > p{
+    color: rgb(58, 12, 12);
+    font-style: italic;
+    width: 60%;
+    float: right;
+}
+
+    
+
+/* responsiveness part  */
+@media (max-width:679px){
+    #main{
+        max-width:  679px;
+    }
+    
+    .content > img{
+        height: 200px;
+        width: auto;
+        float: left;
+    }
+    .content > p{
+        width: auto;
+    }
+
+}
+

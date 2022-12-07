@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Question{
+    position: fixed;
+    left: 80%;
+    bottom: 10%;
+}
+#Body{
+    /* background-color: rgb(41, 2, 2); */
+    width: 100%;
+    background-color: beige;
+    color: rgb(63, 10, 10);
+    margin-bottom: 5px;
+}
+
+.side{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    /* padding-right: 1%; */
+    /* padding-left: 1%; */
+    /* overflow: auto; */
+    margin-left: 10px;
+    margin-right:  10px;
+    /* margin-bottom: 5px; */
+    border: 2px groove maroon;
+    /* clear: right; */
+    
+}
+
+.side img{
+    margin-top: 5px;
+    width: 45%;
+    float: left;
+    height: 200px;
+    float: left ; 
+    border-radius: 30px;
+    /* clear: both; */
+}
+.side h3{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(175, 4, 4);
+    /* clear: both; */
+}
+.side h1{
+    text-align: center;
+}       
+.side p{
+    width: 50%;
+    font-size: 12px;
+    float: right;
+}              
+/* responsive setting */
+/* responsiveness part  */
+@media (max-width:679px){
+    #main{
+        max-width:  679px;
+    }
+
+    .side{
+        width: auto;   
+    }
+
+    .side img{
+        width: auto;   
+    }
+
+    .side p{
+        width: auto;
+    }
+}
