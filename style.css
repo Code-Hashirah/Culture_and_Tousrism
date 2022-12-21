@@ -29,11 +29,12 @@
 }
 .content >h3{
     /* float: left; */
-    width: 31.%;
+    width: 31%;
     color: white;
     font-style:normal;
     font-size: 14px;
     text-align: center;
+    overflow: auto;
 }
 #Body > h2 {
     text-shadow: 1px 1px 1px ;
@@ -47,12 +48,14 @@
     width: 40%;
     /* float: left; */
     padding: 5px 10px;
+    overflow: auto;
 }
 .content > p{
     color: rgb(58, 12, 12);
     font-style: italic;
     width: 60%;
     float: right;
+    overflow: auto;
 }
 
     
